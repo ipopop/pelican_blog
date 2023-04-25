@@ -1,6 +1,6 @@
 AUTHOR = 'me'
 SITENAME = 'azyweb-blog'
-SITEURL = ''
+SITEURL = 'https://ipopop.github.io/pelican_blog'
 
 PATH = 'content'
 
