@@ -1,6 +1,7 @@
 AUTHOR = 'me'
 SITENAME = 'azyweb-blog'
-SITEURL = 'https://ipopop.github.io/pelican_blog'
+# SITEURL = 'https://ipopop.github.io/pelican_blog'
+SITEURL = '.'
 
 PATH = 'content'
 
@@ -29,3 +30,8 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+THEME = '/Users/popdev/pelican-themes/Flex'
+
+PLUGIN_PATHS = ['/Users/popdev/pelican-themes/pelican-plugins']
+PLUGINS = ['sitemap', 'post_stats', 'feed_summary']
